@@ -32,6 +32,13 @@ void orang::SetNama(string pNama) {
 }
 int main()
 {
-    
+    orang o;
+    o.SetNama("Joko Kumat");
+    siswa s;
+    s.setId(1);
+    s.displayAll(o);
+    cout << endl;
+    system("pause");
+    return 0;
 }
 
