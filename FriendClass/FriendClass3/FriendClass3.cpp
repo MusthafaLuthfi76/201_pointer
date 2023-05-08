@@ -17,6 +17,10 @@ public :
     }
     friend void manusia::ShowNilaiPelajar(pelajar& x);
 };
+
+void manusia::ShowNilaiPelajar(pelajar& x) {
+    cout << "Nilai Pelajar: " << x.nilai;
+}
 int main()
 {
     std::cout << "Hello World!\n";
