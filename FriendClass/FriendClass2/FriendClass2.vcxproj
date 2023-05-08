@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3374efd8-6558-4a4e-998c-e6050d55a85b}</ProjectGuid>
+    <ProjectGuid>{92fb171d-f908-47ee-8bd8-f223465c77a5}</ProjectGuid>
     <RootNamespace>FriendClass2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FriendClass 2.cpp" />
+    <ClCompile Include="FriendClass2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
