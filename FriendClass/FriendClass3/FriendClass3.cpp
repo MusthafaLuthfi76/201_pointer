@@ -23,6 +23,11 @@ void manusia::ShowNilaiPelajar(pelajar& x) {
 }
 int main()
 {
-    std::cout << "Hello World!\n";
+    manusia m;
+    pelajar p;
+    m.ShowNilaiPelajar(p);
+    cout << endl;
+    system("\npause");
+    return 0;
 }
 
